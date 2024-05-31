@@ -1,8 +1,9 @@
 #include<iostream>
+#include<limits.h>
 
 using namespace std;
 
-int n, m, minAns = 9999999, ans = 0;
+int n, m, minAns = INT_MAX, ans = 0;
 int** arr;
 bool flag = false;
 
